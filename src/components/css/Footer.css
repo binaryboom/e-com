@@ -1,0 +1,44 @@
+
+
+.footer {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    padding-right: 10vw;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px; 
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .subscribe-button {
+    padding: 5px 10px;
+    background-color: #f59b25;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,117 @@
+.cart-card {
+    background-color: #242424;
+    height: 30vh;
+    width: 95vw;
+    border-radius: 1rem;
+    margin: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1.4px solid white;
+    justify-content: flex-start;
+    
+}
+.cart-cardImg {
+    padding: 9px;
+    height: 25vh;
+    width: height;
+    border-radius: 20px;
+}
+.cart-card-container {
+    margin: 1rem;
+    padding-top: 0.5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+.cart-card-info{
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+    
+}
+.cart-title{
+    color: #f59b25;
+    background-color: black;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.left{
+    gap: 1rem;
+    display: grid;
+}
+
+.qtyOptions{
+    display: flex;
+    align-items: center;
+}
+#qtySelected{
+    background-color:#f59b25;
+    border-radius: 1rem;
+    color: white;
+    width: 3rem;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    font-weight: 800;
+}
+#remove{
+    background-color:#f59b25;
+    border-radius: 1rem;
+    color: white;
+    width: max-content;
+    padding: 0.3rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#checkout{
+    background-color:#f59b25;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    color: white;
+    width: max-content;
+    padding: 0.3rem;
+    font-weight: 800;
+    font-size: 3vh;
+    cursor: pointer;
+}
+.fa-circle-minus,.fa-circle-plus{
+    font-size: 1.1rem;
+    transition: opacity 0.3s ease;
+}
+.fa-circle-minus:active,.fa-circle-plus:active{
+    opacity: 0.5;
+}
+.total-amt{
+    font-weight: 800;
+    font-size: 3.5vh;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-input{
+        height: 4vh;
+    }
+    .navbar{
+        width: 100vw;
+    }
+    .cart-cardImg {
+        padding: 9px;
+        height: 20vh;
+        border-radius: 20px;
+    }
+    .cart-card{
+        height: 25vh;
+    }
+    .cart-card-info{
+        gap: 0;
+    }
+    .fa-circle-minus,.fa-circle-plus{
+        font-size: 1.5rem;
+    }
+    #checkout{
+        margin-right: 0;
+    }
+  }

@@ -1,0 +1,25 @@
+.filter-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#f59b25 ;
+    height: 6vh;
+    position: sticky;
+    top: 10vh;
+    z-index: 1000;
+  
+}
+select{
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+@media only screen and (max-width: 600px) {
+   .filter-bar{
+    padding: 0.5rem;
+    padding-right: 12vw;
+    width: 100vw;
+    height: 6vh;
+    gap: 1rem;
+    top: 8.5vh;
+   }
+  }

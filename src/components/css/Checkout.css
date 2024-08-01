@@ -1,0 +1,21 @@
+.checkout{
+    background-color: white;
+    color: black;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50vh;
+    padding-top: 2rem;
+    width: 100vw;
+}
+th,td{
+    padding: 0.4rem;
+    border:2px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+    .checkout{
+        padding:5vw ;
+    }
+  }
