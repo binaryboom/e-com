@@ -22,7 +22,7 @@ function Navbar({goToPage,cartQty,searchProduct ,filterByCategory,filterByPrice}
 
             <div className="nav-search">
                 <input type="text" placeholder="Search Items" className="search-input" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}/>
-                <i onClick={()=>{handleSearchClick(); }} className="fa-solid fa-magnifying-glass"></i>
+                <i onClick={()=>{handleSearchClick(); goToPage('home'); }} className="fa-solid fa-magnifying-glass"></i>
             </div>
 
             <div className="nav-cart">
