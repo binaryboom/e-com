@@ -14,7 +14,7 @@ function Navbar({goToPage,cartQty,searchProduct ,filterByCategory,filterByPrice}
 
         <div className="navbar">
             <div className="nav-logo border">
-                <div onClick={()=>{goToPage('home');searchProduct('');filterByCategory('none');filterByPrice('none')}} className="logo">
+                <div onClick={()=>{goToPage('home');searchProduct('');filterByCategory('none');filterByPrice('none');setSearchTerm('')}} className="logo">
                     <i  className="fa-brands fa-slack" style={{ color: '#f59b25' }}></i>
                    <div className='ecom-title'> ShopSphere</div>
                 </div>
